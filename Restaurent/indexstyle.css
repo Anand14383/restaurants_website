@@ -1,0 +1,64 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+/*header part*/
+body{
+	background-image:url("https://cdn.pixabay.com/photo/2019/10/21/11/26/biryani-4565834_960_720.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position:center center;
+}
+header{
+	background-color:transparent;
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:space-between;
+	background-color:black;
+	opacity:0.4;
+}
+#list_right
+{
+}
+ul
+{
+	list-style-type:none;
+	display:inline-flex;
+	
+}
+a{
+	text-decoration-line:none;
+	color:white;
+	font-size:3vw;
+	font-weight:bolder;
+}
+li{
+	display:block;
+	padding:3px;
+	margin:2px;
+}
+main{
+	margin:0 auto;
+	margin-top:30vh;
+	width:30%;
+	height:40%;
+	text-align:center;
+	background-color:red;
+	opacity:0.5;
+	border-radius:50px;
+}
+.head{
+	font-size:4em;
+	color:white;
+}
+button{
+	font-weight:bolder;
+	font-size:25px;
+	color:blue;
+	padding:10px;
+    border-radius:20px;
+
+}
+
+
